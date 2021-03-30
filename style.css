@@ -8,7 +8,7 @@
     overflow-x: scroll;
 }
 
-.nav-item .nav-link, p {
+.nav-item .nav-link, p, a {
     font-family: 'Inter', sans-serif;
 }
 
@@ -17,13 +17,21 @@ h1, h4 {
  }
   
 .social-links {
-    font-size: 30px;
-    padding-left: 15px;
+    font-size: 35px;
+    color: #212529;
+}
+
+.social-links:hover {
+    color: #4d4e52;
 }
 
 @media (min-width: 992px) {
-    .social-links{
+    .social-links {
+        float: left;
+    }
+    .btn {
         float: right;
     }
 
 }
+
