@@ -3,4 +3,27 @@
     background-size: cover;
     background-position: center;
   }
+
+.scrollableRow {
+    overflow-x: scroll;
+}
+
+.nav-item .nav-link, p {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h4 {
+    font-family: 'DM Serif Display', serif;
+ }
   
+.social-links {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .social-links{
+        float: right;
+    }
+
+}
