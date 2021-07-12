@@ -8,7 +8,7 @@
     overflow-x: scroll;
 }
 
-.nav-item .nav-link, p, a {
+.nav-item .nav-link, p, a, li {
     font-family: 'Inter', sans-serif;
 }
 
